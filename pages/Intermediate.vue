@@ -90,7 +90,6 @@ export default {
       //  get first dt
       // console.log(data.list[0].dt)
       let unixtime = data.list[0].dt
-˝
       const items = []
       for(let i=0; i<forecastData.length; i+8){
         const item = {
